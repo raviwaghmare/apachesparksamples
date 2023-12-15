@@ -50,8 +50,13 @@ del person_dict["city"]
 print(person_dict)
 
 
-###11. Create a list my_list containing integers [1, 2, 3, 4, 5]. Create a dictionary my_dict with keys 'A', 'B', and 'C' mapping to values from my_list.
+###11. Create a list my_list containing integers [1, 2, 3, 4, 5]. 
+# Create a dictionary my_dict with keys 'A', 'B', and 'C' mapping to values from my_list.
 my_list=[1,2,3,4,5]
+my_dict={"A":my_list[0],"B":my_list[1],"C":my_list[2]}
+print(my_dict)
+
+
 
 
 #12. Create a string my_string with the text "Python is awesome!". Extract the word "awesome" from my_string.
@@ -123,10 +128,16 @@ set2={3, 4, 5, 6}
 print(set1.union(set2))
 
 #26. Create a tuple my_tuple with elements (5, 10, 15, 20). Access the second to last element from the tuple.
+my_tuple=(5, 10, 15, 20)
+print(my_tuple[1:])
 
 #27. Create a string my_string with the text "Python is versatile and powerful!". Split the string by the word 'and'.
+my_string="Python is versatile and powerful!"
+print(my_string.split("and"))
 
-#28. Create a dictionary courses with keys as course names ('Math', 'Science', 'History') and their corresponding values as the number of students enrolled in each course. Access the number of students enrolled in 'Science'.
+#28. Create a dictionary courses with keys as course names ('Math', 'Science', 'History') 
+# and their corresponding values as the number of students enrolled in each course. Access the number of students enrolled in 'Science'.
+
 
 #29. Create a tuple my_tuple with elements (2, 4, 6, 8). Attempt to modify the value at index 2 in my_tuple (Note: Tuples are immutable).
 
