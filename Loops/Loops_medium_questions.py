@@ -31,11 +31,40 @@ j=my_list[0]
 for i in my_list:
     if i > j:
         j = i
-    
 print(j)
 
-
+val_dict={"dict1":1,"cict2":2,"dict3":3}
+for key in val_dict:
+    print(val_dict[key])
     
+
+#2. Create a variable `marks` and assign a value. Write an if-else statement to assign a grade 'A', 'B', 'C', or 'Fail' based on the marks.
+marks=int(input("input marks"))
+if [ marks >= 0  and marks <= 100]:
+    if [ marks >= 75 ]:
+        print("Grade A")
+    elif [ marks >= 65 ]:
+        print("Grade B")
+    elif [ marks >= 35 ]:
+        print("Grade C")
+    else:
+        print("Failed")
+else:
+    print("Marks should be between 0 and 100")
+
+
+
+#3. Create a variable `num` and initialize it with `100`. Use a while loop to print the numbers from `100` to `80` in steps of `5`.
+import time
+num = 100
+i = 0
+
+while i <= 4 :
+    print(num)
+    num = num - 5
+    i = i + 1
+    time.sleep(2)
+
 
 
 
